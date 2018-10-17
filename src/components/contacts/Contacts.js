@@ -23,7 +23,7 @@ class Contacts extends Component {
   }
 }
 
-Contacts.PropTypes = {
+Contacts.propTypes = {
   contacts: PropTypes.array.isRequired,
   getContacts: PropTypes.func.isRequired
 };
